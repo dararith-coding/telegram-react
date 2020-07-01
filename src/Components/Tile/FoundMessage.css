@@ -1,0 +1,15 @@
+/*
+*license
+ */
+
+.found-message {
+    box-sizing: border-box;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.found-message.item-selected .dialog-wrapper {
+    background: var(--color-accent-main);
+    color: #fff;
+    border-radius: 10px;
+}

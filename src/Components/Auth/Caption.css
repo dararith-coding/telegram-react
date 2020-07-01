@@ -1,0 +1,17 @@
+/*
+*license
+ */
+
+.auth-caption {
+    height: 311px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-caption-telegram-logo {
+    width: 160px;
+    height: 160px;
+    margin: 107px auto 44px;
+    fill: var(--color-accent-main);
+}

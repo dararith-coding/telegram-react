@@ -1,0 +1,21 @@
+/*
+*license
+ */
+
+.main-menu-button {
+    /*margin: 6px 12px 6px 0;*/
+}
+
+.delete-dialog-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#delete-dialog-description {
+    margin-left: 12px;
+}
+
+.progress-button {
+    margin-right: 12px !important;
+    padding: 0 !important;
+}

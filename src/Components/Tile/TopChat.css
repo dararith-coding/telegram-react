@@ -1,0 +1,28 @@
+/*
+*license
+ */
+
+.top-chat {
+    padding: 12px 12px 8px;
+    box-sizing: border-box;
+    max-width: 72px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.top-chat:hover .online-status-icon {
+    background: var(--color-hover);
+}
+
+.top-chat-title {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 8px -12px 2px;
+    font-size: 12px;
+    line-height: normal;
+    user-select: none;
+}

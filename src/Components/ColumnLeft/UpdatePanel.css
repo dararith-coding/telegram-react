@@ -1,0 +1,12 @@
+/*
+*license
+ */
+
+.update-button {
+    margin: 0;
+    padding: 24px;
+    width: calc(100% + 1px);
+    border-radius: 0;
+    color: white;
+    max-height: 65px;
+}

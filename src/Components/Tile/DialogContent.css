@@ -1,0 +1,27 @@
+/*
+*license
+ */
+
+.dialog-content {
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+    color: var(--dialog-subtle-color);
+}
+
+.dialog-content-accent {
+    color: var(--dialog-color);
+}
+
+.dialog.item-selected .dialog-content,
+.dialog.item-selected .dialog-content-accent,
+.dialog.item-selected .dialog-content-draft,
+.dialog.item-selected .dialog-badge-pinned {
+    color: #fff;
+}
+
+.dialog-content-draft {
+    color: #c05f5a;
+}

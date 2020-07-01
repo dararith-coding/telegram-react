@@ -1,0 +1,24 @@
+/*
+*license
+ */
+
+.section-header {
+    padding: 17px 16px 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-header-title {
+    color: var(--header-subtle-color);
+    flex-grow: 1;
+    flex-shrink: 1;
+    user-select: none;
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section-header-title-multiline {
+    white-space: normal;
+}
